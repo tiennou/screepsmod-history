@@ -2,9 +2,12 @@
   "name": "screepsmod-history",
   "version": "1.6.0",
   "description": "",
+  "repository": {
+    "url": "https://github.com/ScreepsMods/screepsmod-history"
+  },
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 0",
+    "test": "npx standard lib/**/*.js",
     "lint": "standard",
     "2npm": "publish"
   },
